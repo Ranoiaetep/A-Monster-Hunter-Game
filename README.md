@@ -30,9 +30,9 @@ Assuming we are not doing anything graphical, except using console i/o:
 ## User Choices
 
 -   You can only start fighting the next monster after defeating the previous monster
--   Each monster will have **3x** more HP than the previous monster
--   Upgrading items will give you **4x** more attack
--   You will have enough material to upgrade your item after defeating each monster around **5x**
+-   Each monster will have ***3x*** more HP than the previous monster
+-   Upgrading items will give you ***4x*** more attack
+-   You will have enough material to upgrade your item after defeating each monster around ***5x***
 -   User can decide to either:
     -   Keep fighting the next monster with lower tier items
     -   Fighting weaker monster repeatedly to get better items
