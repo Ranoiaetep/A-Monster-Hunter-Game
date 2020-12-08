@@ -56,4 +56,8 @@ Assuming we are not doing anything graphical, except using console i/o:
     -   I (ice cream) vs. l (Laura) vs. 1(123) 
     -   O (capital oreo) vs. 0 (zero) vs. o (lower oreo)
     -   ~, |, ^ (symbols)
+    
+## UML Diagram
+
+![](/UML.svg)
 
