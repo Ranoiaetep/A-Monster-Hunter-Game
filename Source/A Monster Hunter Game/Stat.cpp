@@ -1,6 +1,6 @@
 #include "Stat.h"
 
-Stat::Stat(int stat, std::string name)
+Stat::Stat(int stat, const std::string& name)
     : Printable(name)
     , value(stat)
 {}

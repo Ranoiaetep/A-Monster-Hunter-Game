@@ -1,6 +1,6 @@
 #include "Player.h"
 
-Player::Player(std::string name)
+Player::Player(const std::string& name)
     : Living(name)
     , m_maxStats(m_stats)
     , m_materialList{}

@@ -2,7 +2,7 @@
 
 #include <functional>
 
-Item::Item(std::string name, const int level)
+Item::Item(const std::string& name, const int level)
     : Printable("Level " + std::to_string(level) + " " + name)
     , Leveled(level)
 {}
