@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0BCCF3258EF55F00FFFB41 /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0BCCF2258EF55F00FFFB41 /* Dictionary.cpp */; };
+		DE473002258DBD680058929C /* Living.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473001258DBD680058929C /* Living.cpp */; };
+		DE47300A258DBDF80058929C /* Stat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473009258DBDF80058929C /* Stat.cpp */; };
+		DE47300F258DC1730058929C /* Printable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE47300E258DC1730058929C /* Printable.cpp */; };
+		DE473013258DC2DF0058929C /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473012258DC2DF0058929C /* Item.cpp */; };
+		DE47302A258DF7370058929C /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473029258DF7370058929C /* Monster.cpp */; };
+		DE473034258E240B0058929C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473033258E240B0058929C /* Player.cpp */; };
+		DE473039258E31850058929C /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473038258E31850058929C /* MainMenu.cpp */; };
+		DE473045258E3F310058929C /* Arena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473044258E3F310058929C /* Arena.cpp */; };
+		DE473048258E400C0058929C /* Forge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE473047258E400C0058929C /* Forge.cpp */; };
+		DEA203A5258DB19100F759D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEA203A4258DB19100F759D3 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEA2039F258DB19100F759D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE0BCCF2258EF55F00FFFB41 /* Dictionary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dictionary.cpp; sourceTree = "<group>"; };
+		DE473001258DBD680058929C /* Living.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Living.cpp; sourceTree = "<group>"; };
+		DE473009258DBDF80058929C /* Stat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stat.cpp; sourceTree = "<group>"; };
+		DE47300E258DC1730058929C /* Printable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Printable.cpp; sourceTree = "<group>"; };
+		DE473011258DC1B90058929C /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		DE473012258DC2DF0058929C /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		DE473016258DC96D0058929C /* Material.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		DE473018258DD3680058929C /* Equipment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		DE47301A258DD7A20058929C /* Formula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Formula.h; sourceTree = "<group>"; };
+		DE47301D258DDDC60058929C /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DE473027258DF3AE0058929C /* Monster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		DE473029258DF7370058929C /* Monster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		DE47302D258E18910058929C /* Arena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arena.h; sourceTree = "<group>"; };
+		DE473030258E1A2C0058929C /* Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		DE473033258E240B0058929C /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		DE473036258E28020058929C /* MainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		DE473038258E31850058929C /* MainMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		DE47303B258E31D40058929C /* Forge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Forge.h; sourceTree = "<group>"; };
+		DE473044258E3F310058929C /* Arena.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arena.cpp; sourceTree = "<group>"; };
+		DE473047258E400C0058929C /* Forge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Forge.cpp; sourceTree = "<group>"; };
+		DE47304A258E48040058929C /* Dictionary */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dictionary; sourceTree = "<group>"; };
+		DE6A4DF0258F05BC007C8C3E /* Leveled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leveled.h; sourceTree = "<group>"; };
+		DE6A4DF2258F190B007C8C3E /* Statted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Statted.h; sourceTree = "<group>"; };
+		DEA203A1258DB19100F759D3 /* A Monster Hunter Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A Monster Hunter Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA203A4258DB19100F759D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEA203AC258DB1D700F759D3 /* GameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		DEA203AE258DB32600F759D3 /* Living.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Living.h; sourceTree = "<group>"; };
+		DEA203AF258DB36C00F759D3 /* Stat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stat.h; sourceTree = "<group>"; };
+		DEA203B0258DB47500F759D3 /* Printable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA2039E258DB19100F759D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA20398258DB19100F759D3 = {
+			isa = PBXGroup;
+			children = (
+				DEA203A3258DB19100F759D3 /* A Monster Hunter Game */,
+				DEA203A2258DB19100F759D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA203A2258DB19100F759D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA203A1258DB19100F759D3 /* A Monster Hunter Game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA203A3258DB19100F759D3 /* A Monster Hunter Game */ = {
+			isa = PBXGroup;
+			children = (
+				DE47304A258E48040058929C /* Dictionary */,
+				DE47303B258E31D40058929C /* Forge.h */,
+				DE473047258E400C0058929C /* Forge.cpp */,
+				DE473030258E1A2C0058929C /* Dictionary.h */,
+				DE0BCCF2258EF55F00FFFB41 /* Dictionary.cpp */,
+				DE473016258DC96D0058929C /* Material.h */,
+				DE473018258DD3680058929C /* Equipment.h */,
+				DE6A4DF2258F190B007C8C3E /* Statted.h */,
+				DE6A4DF0258F05BC007C8C3E /* Leveled.h */,
+				DE47301A258DD7A20058929C /* Formula.h */,
+				DEA203A4258DB19100F759D3 /* main.cpp */,
+				DE473036258E28020058929C /* MainMenu.h */,
+				DE473038258E31850058929C /* MainMenu.cpp */,
+				DE47301D258DDDC60058929C /* Player.h */,
+				DE473033258E240B0058929C /* Player.cpp */,
+				DE473044258E3F310058929C /* Arena.cpp */,
+				DE47302D258E18910058929C /* Arena.h */,
+				DE473027258DF3AE0058929C /* Monster.h */,
+				DE473029258DF7370058929C /* Monster.cpp */,
+				DEA203AE258DB32600F759D3 /* Living.h */,
+				DE473001258DBD680058929C /* Living.cpp */,
+				DEA203AF258DB36C00F759D3 /* Stat.h */,
+				DE473009258DBDF80058929C /* Stat.cpp */,
+				DEA203AC258DB1D700F759D3 /* GameObject.h */,
+				DEA203B0258DB47500F759D3 /* Printable.h */,
+				DE47300E258DC1730058929C /* Printable.cpp */,
+				DE473011258DC1B90058929C /* Item.h */,
+				DE473012258DC2DF0058929C /* Item.cpp */,
+			);
+			path = "A Monster Hunter Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA203A0258DB19100F759D3 /* A Monster Hunter Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA203A8258DB19100F759D3 /* Build configuration list for PBXNativeTarget "A Monster Hunter Game" */;
+			buildPhases = (
+				DEA2039D258DB19100F759D3 /* Sources */,
+				DEA2039E258DB19100F759D3 /* Frameworks */,
+				DEA2039F258DB19100F759D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A Monster Hunter Game";
+			productName = "A Monster Hunter Game";
+			productReference = DEA203A1258DB19100F759D3 /* A Monster Hunter Game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA20399258DB19100F759D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					DEA203A0258DB19100F759D3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = DEA2039C258DB19100F759D3 /* Build configuration list for PBXProject "A Monster Hunter Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA20398258DB19100F759D3;
+			productRefGroup = DEA203A2258DB19100F759D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA203A0258DB19100F759D3 /* A Monster Hunter Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA2039D258DB19100F759D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE47300A258DBDF80058929C /* Stat.cpp in Sources */,
+				DE473034258E240B0058929C /* Player.cpp in Sources */,
+				DE473045258E3F310058929C /* Arena.cpp in Sources */,
+				DE473002258DBD680058929C /* Living.cpp in Sources */,
+				DE47302A258DF7370058929C /* Monster.cpp in Sources */,
+				DE0BCCF3258EF55F00FFFB41 /* Dictionary.cpp in Sources */,
+				DEA203A5258DB19100F759D3 /* main.cpp in Sources */,
+				DE47300F258DC1730058929C /* Printable.cpp in Sources */,
+				DE473013258DC2DF0058929C /* Item.cpp in Sources */,
+				DE473039258E31850058929C /* MainMenu.cpp in Sources */,
+				DE473048258E400C0058929C /* Forge.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEA203A6258DB19100F759D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEA203A7258DB19100F759D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEA203A9258DB19100F759D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEA203AA258DB19100F759D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA2039C258DB19100F759D3 /* Build configuration list for PBXProject "A Monster Hunter Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA203A6258DB19100F759D3 /* Debug */,
+				DEA203A7258DB19100F759D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA203A8258DB19100F759D3 /* Build configuration list for PBXNativeTarget "A Monster Hunter Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA203A9258DB19100F759D3 /* Debug */,
+				DEA203AA258DB19100F759D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA20399258DB19100F759D3 /* Project object */;
+}
